@@ -1,0 +1,8 @@
+RewriteEngine On
+#RewriteCond %{HTTPS} off
+#RewriteCond %{HTTP_HOST} ^localecommerce\.com$
+#RewriteRule ^(.*)$ https://localecommerce.com%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{REQUEST_URI} ^/(index)$
+RewriteRule ^(.*)$ $1.html [L]
+
