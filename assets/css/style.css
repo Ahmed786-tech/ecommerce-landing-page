@@ -34,6 +34,9 @@
 .paragraph{
      font-size: 18px;
 }
+.small-text{
+     font-size: 14px;
+}
 
  .btn-primary {
      background: radial-gradient(535.68% 535.68% at 100% -109.64%, #F9B54A 0%, #FF451E 100%);
@@ -45,6 +48,8 @@
 }
  .btn-success{
      background: radial-gradient(535.68% 535.68% at 100% -109.64%, #28B858 0%, #3EBF69 100%);
+     border-radius: 6px;
+     padding: 10px 15px;
 }
 
 .profile-menu .dropdown-menu {
@@ -157,8 +162,9 @@
      background-size: cover;
      border-radius: 15px;
 }
+
 /* Free Consultation */
- .free-consultation ul {
+.free-consultation ul {
      list-style-type: none;
 }
  .free-consultation ul li {
@@ -224,9 +230,7 @@
      left: 0;
 }
 /* Partner Section */
- .partnerSectionArea p.large{
-     line-height: 35px;
-}
+ 
 /* Hardware Store Section */
  .hardware-store-section {
      background: rgb(40,184,88);
@@ -241,9 +245,13 @@
  .fullbox img{
      max-width: 333px;
 }
- .pop-products .container .row {
-     border-top: 1px solid #E2E8F0;
+.clientSection .divider{
+     border-bottom: 1px solid #E2E8F0;
+    
 }
+ /* .pop-products .container .row {
+     border-top: 1px solid #E2E8F0;
+} */
 /* Clients */
  .sliderClients img{
      max-width: 100%;
@@ -252,7 +260,7 @@
      display: flex;
      justify-content: center;
      list-style-type: none;
-     margin-top: 50px;
+     margin-top: 35px;
      margin-bottom: 0px;
      padding: 0px;
 }
