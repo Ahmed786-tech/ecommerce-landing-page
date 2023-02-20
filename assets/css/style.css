@@ -92,8 +92,9 @@
      font-size: 14px;
 }
 
-
-
+ video{
+     border-radius: 15px;
+ }
 
 /* Form Design */
  .form-control {
